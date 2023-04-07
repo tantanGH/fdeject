@@ -1,4 +1,4 @@
-# EJECT.X
+# FDEJECT.X
 
 FD eject utility for X680x0/Human68k
 
@@ -8,7 +8,7 @@ FD eject utility for X680x0/Human68k
 
 ### インストール方法
 
-EJECT010.ZIP EJECT.X をパスの通ったディレクトリに置きます。
+EJECT010.ZIP をダウンロードして展開し、FDEJECT.X をパスの通ったディレクトリに置きます。
 
 ---
 
@@ -16,11 +16,11 @@ EJECT010.ZIP EJECT.X をパスの通ったディレクトリに置きます。
 
 ドライブ0のイジェクト:
 
-        eject 0
+        fdeject 0
 
 ドライブ1のイジェクト:
 
-        eject 1
+        fdeject 1
 
 ---
 
