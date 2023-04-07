@@ -19,10 +19,10 @@ HAS = $(RUN68) ${XDEV68K_DIR}/x68k_bin/HAS060.X
 HLK = $(RUN68) ${XDEV68K_DIR}/x68k_bin/hlk301.x
 
 # 実行ファイル名
-TARGET_FILE = EJECT.X
+TARGET_FILE = FDEJECT.X
 
 # Document file
-DOCUMENT_FILE = EJECT.DOC
+DOCUMENT_FILE = FDEJECT.DOC
 
 # Distribution package 
 PACKAGE_FILE = ../EJECT010.ZIP
@@ -36,7 +36,7 @@ CFLAGS = $(COMMON_FLAGS) -Wno-builtin-declaration-mismatch -fcall-used-d2 -fcall
     -fexec-charset=cp932 -fverbose-asm -fno-defer-pop	-D__time_t_defined -D__clock_t_defined
 
 # *.c ソースファイル
-C_SRCS = eject.c
+C_SRCS = fdeject.c
 
 # *.s ソースファイル
 ASM_SRCS =
