@@ -4,7 +4,7 @@
 #include <doslib.h>
 
 void show_help_message() {
-  printf("usage: eject <0 or 1>\n");
+  printf("usage: fdeject <0 or 1>\n");
 }
 
 int32_t main(int32_t argc, uint8_t* argv[]) {
